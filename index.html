@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="centered-heading">YAY! It's BOGO</h1>
+        <!-- Card 1 -->
+        <div class="card">
+            <input type="radio" name="bogo" id="unit1" value="10" />
+            <div class="content">
+                <label for="unit1">
+                    <h3>1 Unit <span class="offer">10% Off</span></h3>
+                    <div class="hidden-details">
+                        <div class="size-color">
+                            <div>
+                                <div class="dropdown-group">
+                                    <label for="size1">Size</label>
+                                    <select id="size1">
+                                        <option>S</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                    </select>
+                                </div>
+                                <div class="dropdown-group">
+                                    <label for="color1">Color</label>
+                                    <select id="color1">
+                                        <option>Black</option>
+                                        <option>White</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="size-color">
+                            <div>
+                                <div class="dropdown-group">
+                                    <select id="size2">
+                                        <option>S</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                    </select>
+                                </div>
+                                <div class="dropdown-group">
+                                    <select id="color2">
+                                        <option>Black</option>
+                                        <option>White</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+            </div>
+            <div>
+                <p class="price">$10.00 USD</p>
+                <p class="strikethrough">$24.00 USD</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card most-popular">
+            <input type="radio" name="bogo" id="unit2" value="18" />
+            <div class="content">
+                <label for="unit2">
+                    <h3>2 Unit <span class="offer">20% Off</span></h3>
+                    <div class="popular-badge">MOST POPULAR</div>
+                    <div class="hidden-details">
+                        <div class="size-color">
+                            <div>
+                                <!-- <p>#1</p> -->
+                                <div class="dropdown-group">
+                                    <label for="size1">Size</label>
+                                    <select id="size1">
+                                        <option>S</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                    </select>
+                                </div>
+                                <div class="dropdown-group">
+                                    <label for="color1">Color</label>
+                                    <select id="color1">
+                                        <option>Black</option>
+                                        <option>White</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="size-color">
+                            <div>
+                                <!-- <span>#2</span> -->
+                                <div class="dropdown-group">
+                                    <select id="size2">
+                                        <option>S</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                    </select>
+                                </div>
+                                <div class="dropdown-group"> 
+                                    <select id="color2">
+                                        <option>Black</option>
+                                        <option>White</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </label>
+            </div>
+            <div>
+                <p class="price">$18.00 USD</p>
+                <p class="strikethrough">$24.00 USD</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <input type="radio" name="bogo" id="unit3" value="24" />
+            <div class="content">
+                <label for="unit3">
+                    <h3>3 Unit <span class="offer">30% Off</span></h3>
+                    <div class="hidden-details">
+                        <div class="size-color">
+                            <div>
+                                <!-- <p>#1</p> -->
+                                <div class="dropdown-group">
+                                    <label for="size1">Size</label>
+                                    <select id="size1">
+                                        <option>S</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                    </select>
+                                </div>
+                                <div class="dropdown-group">
+                                    <label for="color1">Color</label>
+                                    <select id="color1">
+                                        <option>Black</option>
+                                        <option>White</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="size-color">
+                            <div>
+                                <!-- <span>#2</span> -->
+                                <div class="dropdown-group">
+                                    <select id="size2">
+                                        <option>S</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                    </select>
+                                </div>
+                                <div class="dropdown-group"> 
+                                    <select id="color2">
+                                        <option>Black</option>
+                                        <option>White</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>     
+                </label>
+            </div>
+            <div>
+                <p class="price">$24.00 USD</p>
+                <p class="strikethrough">$24.00 USD</p>
+            </div>
+        </div>
+        <div class="free">
+            <h1 class="text-left">Free Delivery</h1>
+            <h1 class="text-right" id="total-price">Total: $0.00 USD</h1>
+        </div>
+
+        <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
